@@ -1,0 +1,32 @@
+{
+	"compilerOptions": {
+		"target": "ESNext",
+		"module": "NodeNext",
+		"moduleResolution": "NodeNext",
+		"composite": true,
+		"lib": ["es2021"],
+		"declaration": true,
+		"declarationMap": true,
+		"sourceMap": true,
+		"outDir": "./dist",
+		"rootDir": "./",
+		"strict": true,
+		"resolveJsonModule": true,
+		"esModuleInterop": true,
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"skipLibCheck": true,
+		"forceConsistentCasingInFileNames": true,
+		"disableSizeLimit": true,
+	},
+	"ts-node": {
+		"transpileOnly": true,
+		"files": true,
+		"module": "NodeNext",
+	},
+	"include": ["src/**/*.ts", "src/**/*.json", "types.d.ts"],
+	"exclude": [
+		"dist",
+		"node_modules",
+	]
+}
